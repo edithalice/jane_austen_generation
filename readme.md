@@ -33,13 +33,13 @@ This project is a little bit confusing to explain without a demonstration, so he
 <!-- blank line -->
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="https://www.github.com/edithalice/jane_austen_generation/app/media/demo.mp4" type="video/mp4">
+    <source src="https://www.github.com/edithalice/jane_austen_generation/app/media/app_demo.mp4" type="video/mp4">
   </video>
 </figure>
 <!-- blank line -->
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="https://www.github.com/edithalice/jane_austen_generation/app/media/demo2.mp4" type="video/mp4">
+    <source src="https://www.github.com/edithalice/jane_austen_generation/app/media/app_demo2.mp4" type="video/mp4">
   </video>
 </figure>
 <!-- blank line -->

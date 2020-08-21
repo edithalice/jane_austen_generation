@@ -33,13 +33,13 @@ This project is a little bit confusing to explain without a demonstration, so he
 <!-- blank line -->
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/app/media/demo.mp4" type="video/mp4">
+    <source src="https://www.github.com/edithalice/jane_austen_generation/app/media/demo.mp4" type="video/mp4">
   </video>
 </figure>
 <!-- blank line -->
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/app/media/demo2.mp4" type="video/mp4">
+    <source src="https://www.github.com/edithalice/jane_austen_generation/app/media/demo2.mp4" type="video/mp4">
   </video>
 </figure>
 <!-- blank line -->
@@ -63,28 +63,28 @@ This app generates text, then for each type of proper noun that appears in the g
 ## Deliverables
 ### Notebooks
 #### Main Workflow
-1. [Text_Preprocessing](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/Text_Preprocessing.ipynb)
-2. [Proper_Noun_Handling](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/Proper_Nouns.ipynb)
-3. [Markov Chain Generation](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/Markov.ipynb)
-4. [Neural Nets](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/Neural_Nets.ipynb)
+1. [Text_Preprocessing](https://www.github.com/edithalice/jane_austen_generation/Text_Preprocessing.ipynb)
+2. [Proper_Noun_Handling](https://www.github.com/edithalice/jane_austen_generation/Proper_Nouns.ipynb)
+3. [Markov Chain Generation](https://www.github.com/edithalice/jane_austen_generation/Markov.ipynb)
+4. [Neural Nets](https://www.github.com/edithalice/jane_austen_generation/Neural_Nets.ipynb)
 #### EDA and sidetracks that weren't ultimately included in the final product
-- [LSA and NMF](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/LSA_and_NMF.ipynb)
-- [LDA](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/LDA.ipynb)
-- [Clustering](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/Clustering_TFIDF.ipynb)
-- [FastText Embedding](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/FastText_Embedding.ipynb)
-- [Word2Vec Embedding](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/Word2Vec_Embedding.ipynb)
-- [Clustering with Embeddings](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/Clustering_FastText.ipynb)
+- [LSA and NMF](https://www.github.com/edithalice/jane_austen_generation/LSA_and_NMF.ipynb)
+- [LDA](https://www.github.com/edithalice/jane_austen_generation/edith_johnston/LDA.ipynb)
+- [Clustering](https://www.github.com/edithalice/jane_austen_generation/Clustering_TFIDF.ipynb)
+- [FastText Embedding](https://www.github.com/edithalice/jane_austen_generation/FastText_Embedding.ipynb)
+- [Word2Vec Embedding](https://www.github.com/edithalice/jane_austen_generation/Word2Vec_Embedding.ipynb)
+- [Clustering with Embeddings](https://www.github.com/edithalice/jane_austen_generation/Clustering_FastText.ipynb)
 ### Python Modules
-- [Preprocessing](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/Text_Preprocessing.ipynb)
-- [Proper Noun Handling](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/Text_Preprocessing.ipynb)
-- [Markov Chaining](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/Text_Preprocessing.ipynb)
+- [Preprocessing](https://www.github.com/edithalice/jane_austen_generation/preprocessing.py)
+- [Proper Noun Handling](https://www.github.com/edithalice/jane_austen_generation/proper_nouns.py)
+- [Markov Chaining](https://www.github.com/edithalice/jane_austen_generation/markov.py)
 ### Web App
-- [App Folder](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/app)
-- [Main Flask Module](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/app/app.py)
-- [Demos](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/app/media)
+- [App Folder](https://www.github.com/edithalice/jane_austen_generation/app)
+- [Main Flask Module](https://www.github.com/edithalice/jane_austen_generation/app/app.py)
+- [Demos](https://www.github.com/edithalice/jane_austen_generation/app/media)
 ### Presentation
 - [Google Slides]()
-- [PDF](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/presentation/pres.pdf)
-- [Powerpoint](https://www.github.com/thisismetis/sf20_ds19/student_submissions/projects/project_4/edith_johnston/pres.pptx)
+- [PDF](https://www.github.com/edithalice/jane_austen_generation/presentation/pres.pdf)
+- [Powerpoint](https://www.github.com/edithalice/jane_austen_generation/presentation/pres.pptx)
 
 

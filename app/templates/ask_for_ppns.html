@@ -1,0 +1,27 @@
+<!doctype html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>Customize it!</title>
+
+<body style="background-color:#edbae4">
+  <div class="container p-5" style="background-color:#edbae4">
+    <div class="row bg-light">
+      <div class="col bg-light">
+        <h1><code class="highlighter rouge">🌸 Time to Fill in the Blanks 🌸</code></h1>
+        <hr class="my-4">
+        <h4><code class="highlighter rouge">Think of something creative!</code></h4>
+        <form method="post"  action="/print_text">
+          {% for item in ppns %}
+            <div class="form-group">
+              <label for="exampleInputEmail1">{{ item[1] }}</label>
+              <input class="form-control" id="form_input_{{ item[0] }}" name="{{ item[0] }}" aria-describedby="emailHelp" placeholder="{{ item[2] }}">
+            </div>
+          {% endfor %}
+          <input type="hidden" id="data-container" name="GeneratedText" value="{{ output_str }}">
+          <input type="hidden" id="data-container-2" name="PPNKeys" value="{{ ppn_keys }}">
+          <button type="submit" class="btn text-white" value="Submit" method="post" style="background-color:#e83e8c">Submit</button>
+        </form>
+        <p>   </p>
+      </div>
+    </div>
+  </div>
+</body>

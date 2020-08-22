@@ -29,20 +29,31 @@ Since text generation with neural nets is a fairly involved process, I needed to
 My goal from the beginning of this project was to build and train a workable neural net model. After struggling with computing power for a while, I finally was able to get some models up and running on Google Colab, and was able to build a *decent* model. Sadly, however, at this point it remains outclassed by the Markov Chain script.
 
 ## Web App
-This project is a little bit confusing to explain without a demonstration, so here's a couple quick demos!
-<!-- blank line -->
+This project is a little bit confusing to explain without a demonstration, so here's a couple quick demos!  
+  
+  
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/18GRFJiLAa5t437xa5jXaJ9OCgqjTEJQ9/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+  
+  
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
     <source src="https://www.github.com/edithalice/jane_austen_generation/app/media/app_demo.mp4" type="video/mp4">
+    <source src="https://www.github.com/edithalice/jane_austen_generation/app/media/app_demo.ogg" type="video/ogg">
+    <source src="https://www.github.com/edithalice/jane_austen_generation/app/media/app_demo.webm" type="video/webm">
   </video>
 </figure>
-<!-- blank line -->
+
+  
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
     <source src="https://www.github.com/edithalice/jane_austen_generation/app/media/app_demo2.mp4" type="video/mp4">
+    <source src="https://www.github.com/edithalice/jane_austen_generation/app/media/app_demo2.ogg" type="video/ogg">
+    <source src="https://www.github.com/edithalice/jane_austen_generation/app/media/app_demo2.webm" type="video/webm">
   </video>
 </figure>
-<!-- blank line -->
+  
 This app generates text, then for each type of proper noun that appears in the generated text, it asks the user to input a noun of that type.
 
 ## Main Tools Used
